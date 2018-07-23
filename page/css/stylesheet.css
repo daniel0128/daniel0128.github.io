@@ -12,8 +12,17 @@
 #button-group {
     z-index: 1;
 }
+
 #button-group .col-md-6 {
     padding: 0 0 0 0;
+}
+
+#button-group button :focus{
+    outline-color: #ffa800;
+}
+
+#button-group button :hover{
+    opacity: 0.6;
 }
 
 #button-group .btn {
