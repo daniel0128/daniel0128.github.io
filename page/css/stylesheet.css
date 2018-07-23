@@ -1,0 +1,67 @@
+@font-face {
+    font-family: bangers-regular;
+    font-stretch: ultra-expanded;
+    src: url("fonts/bangers.regular.ttf");
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#button-group {
+    z-index: 1;
+}
+#button-group .col-md-6 {
+    padding: 0 0 0 0;
+}
+
+#button-group .btn {
+    width: 95%;
+    height: 95%;
+    font-size: smaller;
+}
+
+#login-btn {
+    width: 90%;
+    /*padding-top: 0;*/
+    /*padding-left: 2px;*/
+    /*padding-right: 2px;*/
+    /*padding-bottom: 0;*/
+    padding: 0 0 0 0;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: white;
+    background-color: #223e7f;
+    color: white;
+    /*font-family: bangers-regular;*/
+    box-shadow: 0 0 3px #aaaaaa;
+}
+
+#login-btn :hover {
+    !important;
+    font-weight: normal;
+}
+
+.header4 {
+    !important;
+    box-shadow: 0 0 3px #aaaaaa;
+    border: 3px solid white;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-style: normal;
+    padding: 7px 7px 7px 7px;
+    margin-bottom: 40px;
+    font-family: bangers-regular;
+    font-size: x-large;
+}
+
+.header4 > span {
+    font-size: 15px;
+}
+
+#professor-corner {
+    font-size: x-small;
+    margin-bottom: 40px;
+}
